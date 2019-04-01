@@ -75,11 +75,15 @@ footer .derechos p a{
 footer .derechos p a:hover{
     text-decoration: underline;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
     header .contenedor-foto img{
-        display: none;
+        height: 80px;
     }
-    header .contenedor-meno li a{
-        font-size: 40px;
+    header .contenedor-menu li{
+        display: block;
+        text-align: center;
+    }
+    header .contenedor-menu li a{
+        font-size: 15px;
     }
 }

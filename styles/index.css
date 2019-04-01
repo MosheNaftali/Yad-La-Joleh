@@ -1,0 +1,33 @@
+.grid-gaps {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}  
+.grid-item {
+    margin-bottom: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-gaps .grid-item .boton{
+    margin-top: 10px;
+    width: 100%;
+    background: rgb(0, 77, 139);
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.grid-gaps .grid-item .boton:hover{
+    transition: 1s;
+    background: rgb(0, 117, 212);
+}
+@media screen and (max-width: 750px){
+    .grid-gaps{
+        grid-template-columns: auto auto;
+    }
+}
