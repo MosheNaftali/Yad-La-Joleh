@@ -11,23 +11,76 @@
     padding: 20px;
     text-align: center;
 }
-
-.grid-gaps .grid-item .boton{
-    margin-top: 10px;
+.grid-gaps .grid-item .botones{
     width: 100%;
-    background: rgb(0, 77, 139);
+    margin-top: 10px;
+    
+}
+.grid-gaps .grid-item .boton{
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+    background: rgb(2, 75, 158);
     color: #fff;
     border: 2px solid transparent;
-    border-radius: 10px;
     font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.grid-gaps .grid-item .boton-restar{
+    border-radius: 50% 0 0 50%;
+}
+.grid-gaps .grid-item .boton-sumar{
+    border-radius: 0 50% 50% 0;
+}
+.grid-gaps .grid-item .cantidad{
+    width: 50%;
+    text-align: center;
+    background: rgb(0, 140, 255);
+    color: #fff;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
     padding: 10px;
 }
 .grid-gaps .grid-item .boton:hover{
-    transition: 1s;
-    background: rgb(0, 117, 212);
+    transition: .5s;
+    background: rgb(6, 185, 0);
+}
+.casos .donar{
+    width: 100%;
+}
+.casos .donar .total{
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background: rgb(113, 141, 146);
+}
+.casos .donar input[type="button"]{
+    width: 100%;
+    padding: 15px;
+    background: #4F6367;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.casos .donar input[type="button"]:hover{
+    transition: .5s;
+    background: rgb(43, 54, 56);
 }
 @media screen and (max-width: 750px){
     .grid-gaps{
         grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 450px){
+    .grid-gaps{
+        grid-template-columns: auto;
     }
 }

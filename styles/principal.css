@@ -39,9 +39,11 @@ header .contenedor-menu li{
     padding: 10px 30px;
     list-style: none;
     display: inline;
+    
 }
 header .contenedor-menu li a{
     text-decoration: none;
+    padding-bottom: 1px;
     color: #000;
     font-size: 25px;
     border-bottom: 2px solid transparent;

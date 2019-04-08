@@ -1,0 +1,22 @@
+{
+  "name": "yadlajoleh",
+  "version": "1.0.0",
+  "description": "Plataforma de donativos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshab97/Yad-La-Joleh.git"
+  },
+  "author": "moshab97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshab97/Yad-La-Joleh/issues"
+  },
+  "homepage": "https://github.com/moshab97/Yad-La-Joleh#readme",
+  "dependencies": {
+    "nodejs": "0.0.0"
+  }
+}

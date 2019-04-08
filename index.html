@@ -28,56 +28,43 @@
             <h2>¿Quienes somos?</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
         </div>
-        <h2>Casos</h2>
-        <div class="grid-gaps">
-            <div class="grid-item">
-                <div class="tarjeta">
-                    <div class="titulo">
-                        <h2>Caso 1</h2>
-                    </div>
-                    <div class="descripcion">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
-                    </div>
-                    <input type="button" class="boton" value="Donar">
-                </div>
-            </div>
-            <div class="grid-item">
-                <div class="tarjeta">
-                    <div class="titulo">
-                        <h2>Caso 2</h2>
-                    </div>
-                    <div class="descripcion">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
-                    </div>
-                    <input type="button" class="boton" value="Donar">
-                </div>
-            </div>
-            <div class="grid-item">
-                <div class="tarjeta">
-                    <div class="titulo">
-                        <h2>Caso 3</h2>
-                    </div>
-                    <div class="descripcion">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
-                    </div>
-                    <input type="button" class="boton" value="Donar">
-                </div>
-            </div>
-            <div class="grid-item">
-                <div class="tarjeta">
-                    <div class="titulo">
-                        <h2>Caso 4</h2>
-                    </div>
-                    <div class="descripcion">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
-                    </div>
-                    <input type="button" class="boton" value="Donar">
-                </div>
-            </div>
-            <div class="grid-item">
+        <div class="casos">
+            <h2>Casos</h2>
+            <div class="grid-gaps">
+                <div class="grid-item">
                     <div class="tarjeta">
                         <div class="titulo">
-                            <h2>Caso 5</h2>
+                            <h2>Caso 1</h2>
+                        </div>
+                        <div class="descripcion">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
+                        </div>
+                        <div class="botones">
+                            <input type="button" id="btn-resta-1" class="boton-restar boton" value="-">
+                            <input type="text" id="cant-1" class="cantidad" value=0 disabled>
+                            <input type="button" id="btn-suma-1" class="boton-sumar boton" value="+">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="tarjeta">
+                        <div class="titulo">
+                            <h2>Caso 2</h2>
+                        </div>
+                        <div class="descripcion">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
+                        </div>
+                        <div class="botones">
+                            <input type="button" id="btn-resta-2" class="boton-restar boton" value="-">
+                            <input type="text" id="cant-2" class="cantidad" value=0 disabled>
+                            <input type="button" id="btn-suma-2" class="boton-sumar boton" value="+">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="tarjeta">
+                        <div class="titulo">
+                            <h2>Caso 3</h2>
                         </div>
                         <div class="descripcion">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
@@ -85,6 +72,33 @@
                         <input type="button" class="boton" value="Donar">
                     </div>
                 </div>
+                <div class="grid-item">
+                    <div class="tarjeta">
+                        <div class="titulo">
+                            <h2>Caso 4</h2>
+                        </div>
+                        <div class="descripcion">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
+                        </div>
+                        <input type="button" class="boton" value="Donar">
+                    </div>
+                </div>
+                <div class="grid-item">
+                        <div class="tarjeta">
+                            <div class="titulo">
+                                <h2>Caso 5</h2>
+                            </div>
+                            <div class="descripcion">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. facilis quo laboriosam</p>
+                            </div>
+                            <input type="button" class="boton" value="Donar">
+                        </div>
+                    </div>
+            </div>
+            <div class="donar">
+                <p class="total">Cantidad: <span id="total"></p></p>
+                <input type="button" value="DONAR" id="donar">
+            </div>
         </div>
     </article>
     <footer>
@@ -93,5 +107,6 @@
             <p>Desarrollado y Diseñado por: <a href="https://www.linkedin.com/in/moshe-shabes/" target="_blank">Moshe Shabes</a></p>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
